@@ -274,10 +274,8 @@ namespace Kolben.Adapters
                         var fieldContent = field.GetValue(typeInstance);
 
                         var member = fieldContent == null
-                            ? new PrototypeMember(identifier, processor.Undefined, field.IsStatic, field.IsInitOnly,
-                                false, false)
-                            : new PrototypeMember(identifier, Translate(processor, fieldContent), field.IsStatic,
-                                field.IsInitOnly, false, false);
+                            ? new PrototypeMember(identifier, processor.Undefined, field.IsStatic, field.IsInitOnly, false, false)
+                            : new PrototypeMember(identifier, Translate(processor, fieldContent), field.IsStatic, field.IsInitOnly, false, false);
                         
                         prototype.AddMember(processor, member);
                     }

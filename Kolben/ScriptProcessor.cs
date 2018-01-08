@@ -31,8 +31,7 @@ namespace Kolben
         /// The <see cref="Pokemon3D.Scripting.ErrorHandler"/> associated with this <see cref="ScriptProcessor"/>.
         /// </summary>
         internal ErrorHandler ErrorHandler { get; }
-
-
+        
         /// <summary>
         /// Returns the line number of the currently active statement.
         /// </summary>
