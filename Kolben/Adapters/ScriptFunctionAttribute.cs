@@ -19,6 +19,6 @@ namespace Kolben.Adapters
 
         public bool IsStatic { get; set; }
 
-        internal ScriptFunctionType FunctionType { get; set; }
+        public ScriptFunctionType FunctionType { get; set; }
     }
 }
