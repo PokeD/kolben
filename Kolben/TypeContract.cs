@@ -3,7 +3,7 @@ using Kolben.Types;
 
 namespace Kolben
 {
-    internal static class TypeContract
+    public static class TypeContract
     {
         public static bool Ensure(SObject[] parameters, Type typeContract)
         {

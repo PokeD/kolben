@@ -26,7 +26,7 @@ namespace Kolben.Types
         internal SFunction IndexerSetFunction { get; set; }
 
         // keeps references to objects that should be copied back when translated between script and .net object.
-        internal Dictionary<string, object> ReferenceContainer { get; set; }
+        internal Dictionary<string, object> ReferenceContainer { get; set; }  = new Dictionary<string, object>();
 
         internal void AddMember(SVariable member)
         {

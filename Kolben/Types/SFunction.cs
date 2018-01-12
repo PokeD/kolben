@@ -7,7 +7,7 @@ namespace Kolben.Types
     /// <summary>
     /// Represents a function object that can be called in the script.
     /// </summary>
-    internal class SFunction : SObject
+    public class SFunction : SObject
     {
         private readonly string[] _parameters;
 
